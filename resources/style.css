@@ -1,0 +1,165 @@
+body  {
+  margin: 0;
+  background-color: black;
+  color: seashell;
+  font-family: helvetica;
+  opacity: 0.9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo {
+padding-left: 10px;
+height: 50px;
+display: flex;
+align-items: center;
+}
+
+.nav  {
+  /* text-decoration: underline; */
+  padding-right: 50px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+a {
+  font-family: helvetica;
+  color: seashell;
+  font-size: 25px;
+}
+
+.nav span {
+  color: blue;
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+/* end of header */
+
+/* mission header */
+
+.maincontent  {
+  display: flex;
+  padding-top: 89px;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.heroimage  {
+  height: 700px;
+  background-image: url(img-mission-background.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.missionheader  {
+  width: 1200px;
+  background-color: black;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* tea of month */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+}
+
+.teaofmonth img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+.teaofmonth {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.teaofmonthimg  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.teaimage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* location  */
+
+.mainlocations  {
+  background-image: url(img-locations-background.jpg);
+  height: 700px;
+  width: 1200px;
+  border: 2px sold white;
+  display: flex;
+  justify-content:  center;
+}
+
+.boxandheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.locboxes {
+  display: flex;
+}
+
+.locationbox  {
+  display: flex;
+  width: 300px;
+  margin: 20px 15px;
+  opacity: 1;
+  background-color: black;
+
+  align-items: center;
+  display: inline-block;
+  height: 200px;
+  text-align: center;
+}
+
+/* footer */
+
+.footer1  {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+}
+
+
+
+footer  {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  text-align: left;
+}
